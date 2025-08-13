@@ -1,17 +1,16 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "David Sim",
+  title: "Senior Business Analyst and Aspiring Developer",
+  description: "Portfolio website of David Sim",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "davidsimss@gmail.com",
+    linkedin: "https://linkedin.com/in/davidsim",
+    github: "https://github.com/davidsim",
   },
   aboutMe:
     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+  skills: ["Python", "Javascript", "React", "Node.js", "AWS", "Docker"],
   projects: [
     {
       name: "AI Dev Roundup Newsletter",
@@ -37,13 +36,13 @@ export const siteConfig = {
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Urban Redevelopment of Singapore",
+      title: "Executive Manager",
+      dateRange: "Feb 2025 - Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Drove AI rapid prototype development to automate enforcement manual work and accelerate compliance check. This initiative involved working on LLMs, ensuring accurate information delivery, and managing the development from ideation to launch",
+        "Harnessed WOG tools to enhance productivity and showcasing experience in identifying and implementing solutions to improve operational efficiency",
+        "Utilised SQL query and PowerBI dashboarding for management reporting and data anlysis to provide timely progress and structured reporting",
       ],
     },
     {
