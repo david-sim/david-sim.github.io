@@ -5,8 +5,8 @@ export const siteConfig = {
   accentColor: "#1d4ed8",
   social: {
     email: "davidsimss@gmail.com",
-    linkedin: "https://linkedin.com/in/davidsim",
-    github: "https://github.com/davidsim",
+    linkedin: "https://www.linkedin.com/in/david-simss/",
+    github: "https://github.com/david-sim",
   },
   aboutMe:
     "David Sim is a results-driven professional with extensive experience in software development, digital transformation, and project management. He has a proven track record of leading and implementing strategic initiatives, from developing AI prototypes and digital transformation roadmaps to managing full product development lifecycles. With a strong foundation in software engineering and a focus on operational efficiency, David excels at leveraging technology to solve complex problems and drive business goals. His expertise spans across key areas including AI, LLMs, data analysis with SQL and PowerBI, and agile development methodologies.",
