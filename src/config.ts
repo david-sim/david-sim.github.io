@@ -14,26 +14,23 @@ export const siteConfig = {
   projects:  
   [
     {
-      name: "AI Dev Roundup Newsletter",
-      description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      "name": "Github Portfolio",
+      "description": "A collection of personal projects showcasing various skills.",
+      "link": "https://github.com/david-sim",
+      "skills": ["Python", "LangChain", "Node.js", "Java", ".NET"]
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-      description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      "name": "Future of Charities Presentation",
+      "description": "A presentation aimed at promoting digital transformation among charities.",
+      "link": "https://youtu.be/BpWlhZedmps?t=2349",
+      "skills": ["Digital Transformation", "Communication", "Public Speaking"]
     },
     {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
+      "name": "Mobile Development",
+      "description": "A demo of the NUSFoodie mobile application.",
+      "link": "https://www.youtube.com/watch?v=A8eT-bL9QIE",
+      "skills": ["Mobile Development", "Java"]
+    }
   ],
   experience: 
   [
