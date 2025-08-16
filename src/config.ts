@@ -11,7 +11,31 @@ export const siteConfig = {
   aboutMe:
     "David Sim is a results-driven professional with extensive experience in software development, digital transformation, and project management. He has a proven track record of leading and implementing strategic initiatives, from developing AI prototypes and digital transformation roadmaps to managing full product development lifecycles. With a strong foundation in software engineering and a focus on operational efficiency, David excels at leveraging technology to solve complex problems and drive business goals. His expertise spans across key areas including AI, LLMs, data analysis with SQL and PowerBI, and agile development methodologies.",
   skills: ["Python", "Javascript", "React", "Node.js", "AWS", "Docker"],
-  projects: 
+  projects:  
+  [
+    {
+      name: "AI Dev Roundup Newsletter",
+      description:
+        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
+      link: "https://aidevroundup.com/?ref=devportfolio",
+      skills: ["React", "Node.js", "AWS"],
+    },
+    {
+      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      description:
+        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
+      link: "https://fullstackextensions.com/?ref=devportfolio",
+      skills: ["React", "Node.js", "AWS"],
+    },
+    {
+      name: "ExtensionKit",
+      description:
+        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
+      link: "https://extensionkit.io/?ref=devportfolio",
+      skills: ["React", "Node.js", "AWS"],
+    },
+  ],
+  experience: 
   [
   {
     "company": "Urban Redevelopment Authority",
