@@ -9,83 +9,61 @@ export const siteConfig = {
     github: "https://github.com/davidsim",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
+    "David Sim is a results-driven professional with extensive experience in software development, digital transformation, and project management. He has a proven track record of leading and implementing strategic initiatives, from developing AI prototypes and digital transformation roadmaps to managing full product development lifecycles. With a strong foundation in software engineering and a focus on operational efficiency, David excels at leveraging technology to solve complex problems and drive business goals. His expertise spans across key areas including AI, LLMs, data analysis with SQL and PowerBI, and agile development methodologies.",
   skills: ["Python", "Javascript", "React", "Node.js", "AWS", "Docker"],
-  projects: [
-    {
-      name: "AI Dev Roundup Newsletter",
-      description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-      description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-  ],
-  experience: [
-    {
-      company: "Urban Redevelopment of Singapore",
-      title: "Executive Manager",
-      dateRange: "Feb 2025 - Present",
-      bullets: [
-        "Drove AI rapid prototype development to automate enforcement manual work and accelerate compliance check. This initiative involved working on LLMs, ensuring accurate information delivery, and managing the development from ideation to launch",
-        "Harnessed WOG tools to enhance productivity and showcasing experience in identifying and implementing solutions to improve operational efficiency",
-        "Utilised SQL query and PowerBI dashboarding for management reporting and data anlysis to provide timely progress and structured reporting",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
-  ],
-  education: [
-    {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
-      achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
-    },
-  ],
+  projects: 
+  [
+  {
+    "company": "Urban Redevelopment Authority",
+    "title": "Executive Manager, OpsTech Department",
+    "dateRange": "2025-Present",
+    "bullets": [
+      "Drove AI rapid prototype development to automate enforcement manual work and accelerate compliance checks, involving LLMs from ideation to launch.",
+      "Harnessed WOG tools to enhance productivity and implement solutions to improve operational efficiency.",
+      "Utilized SQL query and PowerBI dashboarding for management reporting and data analysis to provide timely and structured reports."
+    ]
+  },
+  {
+    "company": "Ministry of Defence",
+    "title": "Senior Manager, Service Delivery Division",
+    "dateRange": "2021-2025",
+    "bullets": [
+      "Developed an AI Starter Kit to orient staff on Generative AI, demonstrating a focus on capability development and digitalization strategies.",
+      "Initiated the adoption of SaaS and WOG products, managing the development lifecycle and engaging with various stakeholders.",
+      "Supported the Future Workplace initiative and conducted a Human Resource Digital Transformation study."
+    ]
+  },
+  {
+    "company": "Ministry of Culture, Community and Youth",
+    "title": "Assistant Director, Charities Unit",
+    "dateRange": "2014-2021",
+    "bullets": [
+      "Spearheaded the digital transformation for Charity Portal 2.0, managing the development lifecycle and enhancing user experience.",
+      "Provided daily OpsTech support for Charity Application Processing system, investigating transactional issues and addressing technical feedback.",
+      "Drove Business Process Re-engineering for statutory submissions and reviews to achieve productivity gains.",
+      "Developed Charities GoDigital Kit and presented at 'Future of Charities' to promote digital transformation among charities.",
+      "Managed key stakeholder communication by providing secretariat support to the Charity Council."
+    ]
+  },
+  {
+    "company": "Civil Aviation Authority of Singapore",
+    "title": "Assistant Manager, Information Systems Department",
+    "dateRange": "2010-2012",
+    "bullets": [
+      "Managed the full product development lifecycle for web applications, from defining detailed specifications to overseeing tender evaluation.",
+      "Provided comprehensive operations support for information systems, managing migration, maintenance, and testing.",
+      "Collaborated with product owners to define and groom detailed user stories with clear acceptance criteria."
+    ]
+  },
+  {
+    "company": "CrimsonLogic Pte",
+    "title": "Application Developer (Internship)",
+    "dateRange": "2012-2013",
+    "bullets": [
+      "Managed change requests for TradeWeb applications by defining detailed user stories and acceptance criteria.",
+      "Conducted unit and system testing of TradeWeb applications to ensure product deliverables met quality standards.",
+      "Managed product documentation for TradeWeb applications, ensuring all business logic and technical specifications met customer needs."
+    ]
+  }
+],
 };
